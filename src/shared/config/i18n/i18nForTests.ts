@@ -1,4 +1,4 @@
-import i18n, { Callback } from 'i18next';
+import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 i18n
@@ -11,6 +11,6 @@ i18n
             escapeValue: false, // not needed for react!!
         },
         resources: { ru: { translations: {} } },
-    } as Callback);
+    });
 
 export default i18n;
