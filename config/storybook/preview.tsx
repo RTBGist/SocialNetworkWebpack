@@ -23,7 +23,7 @@ const preview: Preview = {
                 light: 'app light',
                 dark: 'app dark',
             },
-            defaultTheme: 'light',
+            defaultTheme: 'dark',
             parentSelector: 'body',
         }),
     ],
