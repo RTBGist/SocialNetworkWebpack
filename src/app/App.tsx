@@ -10,7 +10,7 @@ const App = () => {
 
     useEffect(() => {
         document.body.className = theme;
-    }, []);
+    }, [theme]);
 
     return (
         <div className={classNames('app', {}, [theme])}>
