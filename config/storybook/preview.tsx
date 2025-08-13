@@ -20,10 +20,10 @@ const preview: Preview = {
         ),
         withThemeByClassName({
             themes: {
-                light: 'app light',
-                dark: 'app dark',
+                light: 'app app_light_theme',
+                dark: 'app app_dark_theme',
             },
-            defaultTheme: 'dark',
+            defaultTheme: 'app_dark_theme',
             parentSelector: 'body',
         }),
     ],
